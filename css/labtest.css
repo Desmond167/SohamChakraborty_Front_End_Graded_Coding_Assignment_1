@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    padding: 4.3rem 2rem 4.3rem 2rem;
+}
+
+.card {
+    box-shadow: 10px 10px 8px 10px #888888;
+    display: flex;
+    flex-direction: row;
+    max-width: 88%;
+    margin: auto;
+}
+
+.form {
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-header {
+    font-size: 2rem;
+    font-family: 'Ramaraja', serif;
+}
+
+.col-50 {
+    float: left;
+    width: 43%;
+    margin: 7px;
+  }
+
+.col-50 input {
+    width: 100%;
+    border-style: hidden;
+    border-bottom-style: solid;
+}
+
+.form button {
+    width: 100%;
+    padding: 0.7rem;
+}
+

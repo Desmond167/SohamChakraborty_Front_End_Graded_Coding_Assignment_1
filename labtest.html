@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/labtest.css">
+    <title>Lab Test || Test</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="form">
+
+                <div class="component">
+                    <p class="form-header">1. Contact Details</p>
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="fname" name="firstname" placeholder="Your Full name..">
+                        </div>
+
+                        <div class="col-50">
+                            <input type="text" id="id" name="id" placeholder="Your Patient Id..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="number" name="contact-num" placeholder="Contact Number">
+                        </div>
+
+                        <div class="col-50">
+                            <input type="text" id="email-id" name="email-id" placeholder="E-Mail ID">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component">
+                    <p class="form-header">2. Address</p>
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="house" name="house" placeholder="House No...">
+                        </div>
+
+                        <div class="col-50">
+                            <input type="text" id="street" name="Street" placeholder="Street">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="area" name="area" placeholder="Area">
+                        </div>
+
+                        <div class="col-50">
+                            <input type="text" id="District" name="District" placeholder="District">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component">
+                    <p class="form-header">3. Choose the Test Type. Show a message (Check atleast one box without fail)
+                    </p>
+                    <div class="row">
+                        <input type="checkbox"><span> CBC</span><br>
+                        <input type="checkbox"><span> Complete Urine</span><br>
+                        <input type="checkbox"><span> Lipid Profile</span><br>
+                        <input type="checkbox"><span> Thyroid Stimulating Hormone(TSH)</span><br>
+                        <input type="checkbox"><span> Glucose Test</span><br>
+                    </div>
+                </div>
+
+                <div class="component">
+                    <p class="form-header">4. Do you want a hard copy of the report also?</p>
+                    <div class="row">
+                        <input type="checkbox"><span> Yes</span><br>
+                        <input type="checkbox"><span> No</span><br>
+                    </div>
+                </div>
+
+                <div class="component">
+                    <p class="form-header">5. Select Your Comfortable Date and Time</p>
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" id="date" name="date" placeholder="Suitable Date">
+                        </div>
+
+                        <div class="col-50">
+                            <input type="text" id="Time" name="time" placeholder="Suitable Time">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component">
+                    <div class="row">
+                        <div class="col-50">
+                            <button onclick="reset()">Reset</button>
+                        </div>
+
+                        <div class="col-50">
+                            <button onclick="submit()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="images/Lab-Test/lab-test.jpg" alt="Not Found">
+        </div>
+    </div>
+
+    <script src="js/labtest.js"></script>
+
+</body>
+
+</html>
